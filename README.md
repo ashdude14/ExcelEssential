@@ -126,5 +126,30 @@ A **Pivot Table** is a tool in Excel that helps summarize large datasets by crea
    
    ![manipulating](pt-4.png)
    
+## 13. What is VLOOKUP?  
+
+**VLOOKUP** (Vertical Lookup) is a powerful Excel function used to search for a value in the first column of a table and return a corresponding value from another column in the same row. It’s commonly used to fetch related data based on a key value.  
 
 
+
+---
+
+### Syntax  
+```excel
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]
+```
+### Steps to create the VLOOKUP
+1. Create values table.
+
+   ![values-table](vl-1.png)
+
+2. Sort the values table.
+    - Select DATA from Ribbon.
+    -  Select Sort.
+    -  Add creteria of sorting.
+
+   ![sorting](vl-2.png)
+
+3. Write the fromula in the cell you want to refer for values
+
+   ![formula](vl-3.png)
