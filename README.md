@@ -69,7 +69,10 @@ To apply conditional formatting with icons:
 3. Choose an icon set based on your conditions.  
 4. Use **Manage Rules** to customize conditions like color changes for thresholds (e.g., green for >75, yellow for 50-75, red for <50).
 
+
 ---
+
+![conditionalFormattingPic](cf.jpg)
 
 ## 9. Common Formulas  
 - **IF:** `=IF(A1>10, "Yes", "No")` (Checks if A1 is greater than 10).  
