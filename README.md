@@ -72,7 +72,7 @@ To apply conditional formatting with icons:
 
 ---
 
-![conditionalFormattingPic](cf.jpg)
+![conditionalFormattingPic](condFor.jpg)
 
 ## 9. Common Formulas  
 - **IF:** `=IF(A1>10, "Yes", "No")` (Checks if A1 is greater than 10).  
