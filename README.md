@@ -91,5 +91,13 @@ To create a chart:
    - Select the chart, and choose **Axis Titles** under Chart Elements.  
    - Add the desired label for the axis.
 
----
+## 11 Text Wrapping in Excel  
+
+**Text Wrapping** adjusts cell content so that text fits within the cell by wrapping it into multiple lines. To enable it, select the cell(s), go to the **Home** tab, and click **Wrap Text** in the Alignment group. This ensures that long text stays visible without spilling into adjacent cells. Adjust row height if needed for better readability.
+### How to Enable Text Wrapping  
+
+1. **Select the cell(s):** Highlight the cell or range of cells where you want to apply text wrapping.  
+2. **Go to Home Tab:** In the Ribbon, under the **Home** tab, locate the **Alignment** group.  
+3. **Click Wrap Text:** Click on the **Wrap Text** button.  
+
 
