@@ -134,10 +134,7 @@ A **Pivot Table** is a tool in Excel that helps summarize large datasets by crea
 
 ---
 
-### Syntax  
-```excel
-=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]
-```
+
 ### Steps to create the VLOOKUP
 1. Create values table.
 
@@ -152,4 +149,38 @@ A **Pivot Table** is a tool in Excel that helps summarize large datasets by crea
 
 3. Write the fromula in the cell you want to refer for values
 
+### Syntax  
+```excel
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup]
+```
+
    ![formula](vl-3.png)
+
+
+   #### VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup] formula explanation
+   
+- **`lookup_value`**  
+   - The value you want to search for in the first column of the table.  
+   - Example: If you're searching for "John" in a list of names, "John" is the lookup_value.  
+   - Can be a cell reference (e.g., `A1`) or a direct value (e.g., `"John"`).  
+
+- **`table_array`**  
+   - The range of cells containing the data, including both the lookup column and the column with the result you want to retrieve.  
+   - Example: If your data is in columns A to D, your table_array could be `A1:D10`.  
+   - The lookup_value is always searched in the **first column** of this range.  
+
+- **`col_index_num`**  
+   - The column number (relative to the table_array) from which you want to retrieve the value.  
+   - Example: If the table_array is `A1:D10` and you want data from column C, the col_index_num is `3`.  
+   - Must be a positive integer.  
+
+- **`[range_lookup]`** (Optional)  
+   - Determines whether to look for an **exact match** or an **approximate match**:  
+     - `FALSE` (Exact Match): Returns a value only if it matches exactly.  
+     - `TRUE` (Approximate Match): Returns the closest match (requires the first column of the table to be sorted in ascending order).  
+   - Default: `TRUE` if omitted.  
+
+
+
+
+
