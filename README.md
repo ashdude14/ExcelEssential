@@ -91,7 +91,7 @@ To create a chart:
    - Select the chart, and choose **Axis Titles** under Chart Elements.  
    - Add the desired label for the axis.
 
-## 11 Text Wrapping in Excel  
+## 11. Text Wrapping in Excel  
 
 **Text Wrapping** adjusts cell content so that text fits within the cell by wrapping it into multiple lines. To enable it, select the cell(s), go to the **Home** tab, and click **Wrap Text** in the Alignment group. This ensures that long text stays visible without spilling into adjacent cells. Adjust row height if needed for better readability.
 ### How to Enable Text Wrapping  
@@ -99,5 +99,29 @@ To create a chart:
 1. **Select the cell(s):** Highlight the cell or range of cells where you want to apply text wrapping.  
 2. **Go to Home Tab:** In the Ribbon, under the **Home** tab, locate the **Alignment** group.  
 3. **Click Wrap Text:** Click on the **Wrap Text** button.  
+
+## 12. What is a Pivot Table?  
+
+A **Pivot Table** is a tool in Excel that helps summarize large datasets by creating a new table based on calculations like **sum**, **average**, **min**, **max**, etc. It allows you to quickly analyze and organize data for better understanding and insights.  
+
+---
+
+### Steps to Create a Pivot Table:  
+1. **Select the Data Range:** Highlight the dataset you want to summarize.
+   
+   ![selectingRanges](pt-1.png)
+   
+2. **Go to Insert Tab:** Click on the **Insert** tab in the Ribbon and select **PivotTable**.
+   
+ ![InsertPivotTable](pt-2.jpg)
+ 
+3. **Create the Pivot Table:** Choose where you want to place the Pivot Table (new or existing sheet), and configure the rows, columns, and values as needed.
+   
+   ![craetedPT](pt-3.jpg)
+
+4. **Manipulate Data and Adding Visuals:** Drag and drop fields into the **Rows**, **Columns**, and **Values** areas to customize your table. Apply filters or sort data to refine your analysis.
+   
+   ![manipulating](pt-4.png)
+   
 
 
